@@ -68,10 +68,12 @@ header{
 }
 .project{
     margin: 0;
+    display: flex;
+    align-items: center;
 }
 .project-img{
     width: 16px;
     height: 12px;
     display: block;
-    background-image: url(../image/arrow.svg);
+background-image: url(../image/arrow.svg);
 }
