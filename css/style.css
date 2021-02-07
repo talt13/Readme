@@ -64,7 +64,12 @@ header{
 }
 .social{
     display: flex;
+    justify-content: space-between;
 }
 .project{
     margin: 0;
+}
+.project-img{
+    width: 16px;
+    height: 12px;
 }
