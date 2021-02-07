@@ -72,4 +72,6 @@ header{
 .project-img{
     width: 16px;
     height: 12px;
+    display: block;
+    background-image: url(../image/arrow.svg);
 }
