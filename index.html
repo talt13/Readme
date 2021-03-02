@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -127,7 +128,7 @@
                     </svg>
                 <div id="tabs">
                     <ul class="j-tabs">
-                      <li class="j-tabs-item"><a class="j-tabs-link active" href="#tabs-1">Лендинги</a></li>
+                      <li class="j-tabs-item"><a class="j-tabs-link" href="#tabs-1">Лендинги</a></li>
                       <li class="j-tabs-item"><a class="j-tabs-link" href="#tabs-2">Корпоративные сайты</a></li>
                       <li class="j-tabs-item"><a class="j-tabs-link" href="#tabs-3">Интернет-магазины</a></li>
                     </ul>
@@ -165,8 +166,74 @@
                             </div>
                         </div>
                     </div>
-                    <div id="tabs-2"></div>
-                    <div id="tabs-3"></div>
+                    <div id="tabs-2">
+                        <div class="work">
+                            <div class="work-item">
+                                <h3 class="work-title">Agata Bielen</h3>
+                                <ul class="work-list">
+                                    <li class="work-list-item">– верстка по макету из Figma</li>
+                                    <li class="work-list-item">– наполнение сайта контентом</li>
+                                    <li class="work-list-item">– внедрена функция добавления видео</li>
+                                </ul>
+                                <p class="work-time">Затрачено времени: 5 рабочих дней</p>
+                            </div>
+                            <div class="work-item">
+                                <div class="work-thumb">
+                                    <img class="work-image" src="/image/layout preview.png" alt="Agata Bielen">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="work-item">
+                                <h3 class="work-title">Lemon</h3>
+                                <ul class="work-list">
+                                    <li class="work-list-item">– верстка по макету из PSD</li>
+                                    <li class="work-list-item">– доступен функционал получения заказов</li>
+                                    <li class="work-list-item">– реализована кнопка «Заказать в 1 клик»</li>
+                                </ul>
+                                <p class="work-time">Затрачено времени: 7 рабочих дней</p>
+                            </div>
+                            <div class="work-item">
+                                <div class="work-thumb">
+                                    <img class="work-image" src="/image/lemon.png" alt="Lemon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabs-3">
+                        <div class="work">
+                            <div class="work-item">
+                                <h3 class="work-title">Agata Bielen</h3>
+                                <ul class="work-list">
+                                    <li class="work-list-item">– верстка по макету из Figma</li>
+                                    <li class="work-list-item">– наполнение сайта контентом</li>
+                                    <li class="work-list-item">– внедрена функция добавления видео</li>
+                                </ul>
+                                <p class="work-time">Затрачено времени: 5 рабочих дней</p>
+                            </div>
+                            <div class="work-item">
+                                <div class="work-thumb">
+                                    <img class="work-image" src="/image/layout preview.png" alt="Agata Bielen">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="work-item">
+                                <h3 class="work-title">Lemon</h3>
+                                <ul class="work-list">
+                                    <li class="work-list-item">– верстка по макету из PSD</li>
+                                    <li class="work-list-item">– доступен функционал получения заказов</li>
+                                    <li class="work-list-item">– реализована кнопка «Заказать в 1 клик»</li>
+                                </ul>
+                                <p class="work-time">Затрачено времени: 7 рабочих дней</p>
+                            </div>
+                            <div class="work-item">
+                                <div class="work-thumb">
+                                    <img class="work-image" src="/image/lemon.png" alt="Lemon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                   </div>
               </section>
           </div>
@@ -261,10 +328,51 @@
             </div>
              </div>
            </section>
+           <section class="section-tech">
+               <div class="tech">
+                   <div class="tech-item html">
+                    <img class="tech-img"src="image/icon/html.svg" alt="HTML" title="Язык гипертекстовой разметки">
+                </div>
+                <div class="tech-item css">
+                       <img class="tech-img" src="image/icon/css.svg" alt="CSS" title="Каскадные таблицы стилей">
+                   </div>
+                <div class="tech-item JavaScript">
+                    <img class="tech-img"src="image/icon/JavaScript.svg" alt="JavaSсript" title="Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам">
+                </div>
+                <div class="tech-item jquery">
+                    <img class="tech-img"src="image/icon/jquery.svg" alt="jQuery" title="Популярная библиотека JavaSсript">
+                </div>
+                <div class="tech-item bootstrap">
+                    <img class="tech-img"src="image/icon/bootstrap.svg" alt="Bootstrap" title="Популярный CSS-фреймворк">
+                </div>
+                <div class="tech-item php">
+                    <img class="tech-img"src="image/icon/php.svg" alt="PHP" title="Серверный язык программирования">
+                </div>
+                <div class="tech-item Vue">
+                    <img class="tech-img"src="image/icon/Vue.svg" alt="VueJS" title="JS-фреймворк для создания пользовательских интерфейсов">
+                </div>
+                <div class="tech-item Wordpress">
+                    <img class="tech-img"src="image/icon/Wordpress.svg" alt="WordPress" title="Популярная CMS для создания блогов">
+                </div>
+               </div>
+           </section>
          </div>
         <footer>#</footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
      <script src="script/jquery-ui.min.js"></script>
+     <script>
+        $( function() {
+        $("#tabs").tabs({ active: 0});
+        $( document ).tooltip();
+        } );
+        $( ".tech-image" ).tooltip({
+        position: {
+        my: "center top",
+        at: "center bottom-10",
+        collision: "none"
+        }
+        });
+        </script>
 </body>
 </html>
